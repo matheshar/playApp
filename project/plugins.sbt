@@ -14,6 +14,7 @@ addSbtPlugin("com.typesafe.sbt" % "sbt-mocha" % "1.1.0")
 // plugin if you prefer not to have this feature, or disable on a per project
 // basis using disablePlugins(PlayEnhancer) in your build.sbt
 addSbtPlugin("com.typesafe.sbt" % "sbt-play-enhancer" % "1.1.0")
+addSbtPlugin("de.johoop" % "jacoco4sbt" % "2.1.6")
 
 // Play Ebean support, to enable, uncomment this line, and enable in your build.sbt using
 // enablePlugins(PlayEbean). Note, uncommenting this line will automatically bring in
